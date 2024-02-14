@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --backcolor1:#741e18;
+    --backcolor2: #f9e0f6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    background-color: var(--backcolor2);
+    height: 100px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 60px;
+    padding: 0 0 0 30px;
+    color: var(--backcolor1);
+}
+
+nav {
+    text-transform: uppercase;
+    gap: 20rem;
+    padding: 10px;
+    align-items: center;
+}
+
+nav a{
+    color: var(--backcolor1);
+}
+
+.louis-vuitton {
+    background-color: var(--backcolor1);
+}
+
+.gucci {
+    background-color: var(--backcolor2);
+}
+
